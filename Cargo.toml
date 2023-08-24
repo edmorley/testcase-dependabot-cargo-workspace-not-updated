@@ -1,0 +1,17 @@
+[workspace]
+members = [
+  "example-crate-one",
+  "example-crate-two",
+]
+
+[workspace.package]
+version = "0.0.0"
+rust-version = "1.67"
+edition = "2021"
+publish = false
+
+[workspace.dependencies]
+libcnb-test = "0.13"
+libcnb = "0.13"
+libherokubuildpack = "0.13"
+thiserror = "1"
