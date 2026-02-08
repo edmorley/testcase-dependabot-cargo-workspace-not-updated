@@ -13,5 +13,5 @@ publish = false
 [workspace.dependencies]
 libcnb-test = "0.13"
 libcnb = "0.13"
-libherokubuildpack = "0.13"
+libherokubuildpack = "0.15"
 thiserror = "1"
